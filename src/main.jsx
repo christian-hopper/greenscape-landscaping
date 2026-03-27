@@ -7,7 +7,7 @@ import "./styles/global.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router basename="/fade-masters-barbershop">
+    <Router basename="/greenscape-landscaping">
       <App />
     </Router>
   </React.StrictMode>,
