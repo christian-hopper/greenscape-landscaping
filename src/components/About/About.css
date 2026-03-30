@@ -1,0 +1,74 @@
+/* Section */
+.about {
+  padding: 80px 0;
+  background-color: #ecfdf5;
+}
+
+/* Container */
+.about__container {
+  max-width: 1488px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Grid */
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+/* Text */
+.about__title {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0 0 24px 0;
+  color: #111827;
+}
+
+.about__text {
+  font-size: 18px;
+  color: #374151;
+  margin: 0 0 24px 0;
+  line-height: 1.6;
+}
+
+/* Stats */
+.about__stats {
+  display: flex;
+  gap: 32px;
+}
+
+.about__stats-number {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #16a34a;
+  margin: 0 0 8px 0;
+}
+
+.about__stats-text {
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Image */
+.about__image-img {
+  width: 100%;
+  height: 384px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 1028px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__stats {
+    gap: 20px;
+  }
+}
