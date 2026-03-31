@@ -28,7 +28,7 @@ function Navigation() {
 
         <div className="navigation__actions">
           <nav className="navigation__links">
-            {["home", "services", "about", "projects", "contact"].map(
+            {["home", "services", "projects", "about", "contact"].map(
               (section) => (
                 <button
                   key={section}

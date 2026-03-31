@@ -29,7 +29,11 @@ function Footer() {
           {/* Brand */}
           <div className="footer__brand">
             <div className="footer__logo">
-              <img className="footer__logo-img" src={leafIcon} alt="logo" />
+              <img
+                className="footer__logo-img"
+                src={leafIcon}
+                alt="GreenScape Landscaping logo"
+              />
               <span className="footer__logo-title">GreenScape</span>
             </div>
             <p className="footer__logo-description">
